@@ -4,11 +4,11 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # PostgreSQL bağlantı bilgileri
-DATABASE_NAME = "deneme_db"
-USER_NAME = "postgres"
-PASSWORD = "12345"
-HOST_IP = "127.0.0.1"
-HOST_PORT = "5432"
+DATABASE_NAME = ""
+USER_NAME = ""
+PASSWORD = ""
+HOST_IP = ""
+HOST_PORT = ""
 
 # Varsayılan veritabanına bağlan
 default_connection = psycopg2.connect(
